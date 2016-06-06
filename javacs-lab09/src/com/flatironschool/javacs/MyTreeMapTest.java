@@ -84,7 +84,7 @@ public class MyTreeMapTest {
 	}
 
 	/**
-	 * Test method for {@link com.flatironschool.javacs.MyLinearMap#get(java.lang.Object)}.
+	 * Test method for {@link com.flatironschool.javacs.MyLinearMap#(java.lang.Object)}.
 	 */
 	@Test
 	public void testGet() {
@@ -127,7 +127,7 @@ public class MyTreeMapTest {
 		
 		// check that the keys are in ascending order
 		for (int i=0; i<list.size()-1; i++) {
-			System.out.println(list.get(i));
+			// System.out.println(list.get(i));
 			if (list.get(i).compareTo(list.get(i+1)) > 0) {
 				assert(false);
 			}
